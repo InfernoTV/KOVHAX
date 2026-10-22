@@ -1,6 +1,6 @@
 # KOVHAX
 
-A Windows client for research and development around target geometry, response curves and mouse input in KovaaK's.
+A Windows aim-assistance client for research and development around target geometry, response curves and mouse input in KovaaK's.
 
 > **Keep assisted runs off leaderboards.** Use this build for private, unranked experiments. Close it before a scored run. An assisted result is not a measure of your own aim.
 
@@ -39,7 +39,7 @@ The downloadable build is processed with VMProtect to make parts of its implemen
 
 **There is no automatic leaderboard enforcement.** KOVHAX does not detect score submissions, report players to developers or moderators, or issue bans. Obfuscation does not change that. The startup notice is a reminder, not a technical restriction.
 
-Do not use the client to submit assisted scores, impersonate clean performance, or interfere with someone else's session. Calling something research does not make those uses acceptable.
+Do not submit assisted scores or present them as clean performance.
 
 ## Project status
 
