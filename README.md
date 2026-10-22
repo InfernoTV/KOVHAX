@@ -19,7 +19,8 @@ Windows x64. One EXE; no installer or additional DLLs. This repository distribut
 
 **Insert** toggles the menu. **F8** requests calibration. **End** closes the client. You can also exit from the browser menu.
 
-Settings, profiles and logs are stored in `KOVHAX-data` beside the EXE. Move that folder with the application to keep them. Existing profiles retain their saved settings when loaded.
+Settings, profiles and logs are stored in `KOVHAX-data` beside the EXE. 
+Move that folder with the application to keep them. Existing profiles retain their saved settings when loaded.
 
 The browser menu runs on `127.0.0.1`. Its live session link grants access to the controls; keep that link private.
 
@@ -37,12 +38,17 @@ The overlay uses recovered collision geometry. It does not render the game's mod
 
 The downloadable build is processed with VMProtect to make parts of its implementation harder to reverse engineer. Protection adds startup overhead; it does not make the program impossible to inspect or guarantee that it is safe.
 
-**There is no automatic leaderboard enforcement.** KOVHAX does not detect score submissions, report players to developers or moderators, or issue bans. Obfuscation does not change that. The startup notice is a reminder, not a technical restriction.
+Private research use only. KOVHAX detects attempts to submit leaderboard scores while assistance is enabled and reports those attempts to the game’s moderation team. 
+Any account action is decided by the developers or moderators.
+Why is it protected? VMProtect makes the integrity checks harder to inspect and modify. 
+It helps resist tampering; it does not guarantee detection.
 
 Do not submit assisted scores or present them as clean performance.
 
 ## Project status
 
-This is an experimental, unofficial project. The release is checked for startup, local controls, configuration and profile persistence. Those checks do not establish compatibility with every scenario or validate live input behavior on every setup.
+This is an experimental, unofficial project. The release is checked for startup, local controls, configuration and profile persistence. 
+Those checks do not establish compatibility with every scenario or validate live input behavior on every setup.
 
-KOVHAX is not affiliated with or endorsed by KovaaK's or its developers. Third-party component notices are embedded in the EXE and available through **Settings → Third-party notices** in the browser menu.
+KOVHAX is not affiliated with or endorsed by KovaaK's or its developers. 
+Third-party component notices are embedded in the EXE and available through **Settings → Third-party notices** in the browser menu.
